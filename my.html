@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating a Shopping Cart Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h2>Product List</h2>
+      <div class="product-list">
+        <div class="new product">
+          <div class="item">
+            <img
+              src="https://www.stoneycreekhunting.co.nz/image/cache/catalog/product_images/corporate/mens/shirts/Mens_Corporate_Shirt_Long_Sleeve_Float_Navy-875x1000.jpg"
+              ,
+              alt="Product Image"
+            />
+          </div>
+          <div class="item">
+            <span
+              >Men's Corporate Shirt - Black, Blue Gingham, and Black Gingham |
+              Stoney Creek Lifestyle Gear</span
+            >
+          </div>
+          <div class="item">
+            <span style="color: rgb(0, 117, 138); font-size: 2rem">$60</span>
+          </div>
+          <div class="item">
+            <button class="btn add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="new product">
+          <div class="item">
+            <img
+              src="https://www.shahifits.in/wp-content/uploads/2022/03/Long-Jacket-Party-Dresses-for-Women.jpg"
+              ,
+              alt="Product Image"
+            />
+          </div>
+          <div class="item">
+            <span
+              >Long Jacket Party Dresses for Women|Eid Special Dresses 2023
+            </span>
+          </div>
+          <div class="item">
+            <span style="color: rgb(0, 117, 138); font-size: 2rem">$600</span>
+          </div>
+          <div class="item">
+            <button class="btn add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="new product">
+          <div class="item">
+            <img
+              src="https://aristamart.com/images/products/203-stylish-formal-shirt-1.jpg"
+              ,
+              alt="Product Image"
+            />
+          </div>
+          <div class="item">
+            <span>Stylish Formal Shirt</span>
+          </div>
+          <div class="item">
+            <span style="color: rgb(0, 117, 138); font-size: 2rem">$300</span>
+          </div>
+          <div class="item">
+            <button class="btn add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Add more product elements as needed -->
+      </div>
+      <div>
+        <h2>Shopping Cart</h2>
+        <div id="cart-items"></div>
+        <div>
+          <button class="btn" id="clear-cart">Clear Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
